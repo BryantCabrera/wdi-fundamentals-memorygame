@@ -49,13 +49,6 @@ h2 {
 	text-transform: uppercase;
 	font-size: 20px;
 }
-h3 {
-	font-family: Raleway;
-	color: #0D2C40;
-	letter-spacing: 1px;
-	font-weight: 400;
-	font-size: 20px;
-}
 a {
 	font-family: Raleway;
 	/* color: #F15B31; */
@@ -74,6 +67,40 @@ a:hover {
 img {
 	margin: 40px 8px 0 8px;
 }
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+#reset {
+	background-image: url('https://i.imgur.com/Cl0KAJF.png');
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-top: 30px;
+}
+#resetScore {
+	background-image: url('https://i.imgur.com/ofuxSHh.png');
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 36px;
+    width: 163px;
+    border: none;
+    margin-top: 30px;
+}
+#score, #counter {
+	font-family: "Droid Serif";
+	font-size: 24pt;
+	color: #00A6B3;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+.medal {
+	height: 30px;
+	width: 30px;
+	margin: 0 auto;
+}
 .copyright {
 	float: left;
 	font-family: Raleway;
@@ -85,10 +112,6 @@ img {
 .name {
 	color: #F15B31;
 	font-weight: 700;
-}
-.li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
 }
 .socialMedia {
     height: 30px;
